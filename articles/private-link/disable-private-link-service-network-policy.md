@@ -52,7 +52,7 @@ az network vnet subnet update \
     --name default \
     --vnet-name MyVnet \
     --resource-group myResourceGroup \
-    --disable-private-link-service-network-policies yes
+    --disable-private-link-service-network-policies true
 ```
 
 # [**JSON**](#tab/private-link-network-policy-json)
